@@ -7,7 +7,7 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
   
   <title>Frontend Mentor | Newsletter sign-up form with success message</title>
-
+  <link rel="stylesheet" href="styles.css">
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
     .attribution { font-size: 0.6875rem; text-align: center; }
@@ -18,21 +18,22 @@
 
   <!-- Sign-up form start -->
   <img src="assets/images/illustration-sign-up-mobile.svg"></img>
-  <h1>Stay updated!</h1>
-  <p>Join 60,000+ product managers receiving monthly updates on:</p>
-  <ul>
-    <li>Product discovery and building what matters</li>
-    <li>Measuring to ensure updates are a success</li>
-    <li>And much more!</li>
-  </ul>
+  <h1 class="title">Stay updated!</h1>
+  <p class="body-text">Join 60,000+ product managers receiving monthly updates on:
+    <ul>
+      <li>Product discovery and building what matters</li>
+      <li>Measuring to ensure updates are a success</li>
+      <li>And much more!</li>
+    </ul>
+  </p>
   
   <form action="">
-    <label for="email">Email address</label>
+    <label for="email" class="email-label">Email address</label>
     <input type="email" id="email" name="email" placeholder="email@company.com">
   </form>
   
 
-  <button>Subscribe to monthly newsletter</button>
+  <button class="subscribe-button">Subscribe to monthly newsletter</button>
 
   <!-- Sign-up form end -->
 
